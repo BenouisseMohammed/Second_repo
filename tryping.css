@@ -1,0 +1,204 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(download.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #faf9f7;
+    background-image: url(https://static.typingclub.com/m/website/authen/tp-900.svg);
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+
+ ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 400px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+}
+/* .links {
+    justify-content: space-between;
+    display: flex;
+} */
+.logo{
+    top: 15px;
+    position: relative;
+    left: 20px;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .card:hover{
+    transform: scale(1.1);
+} */
+.card{
+    background-color: white;
+    width: 423px;
+    height: 700px;
+    text-align: center;
+    border-radius: 35px;
+
+}
+
+.log_in{
+    display: flex;
+    margin-left: 61px;
+    margin-top: 35px;
+}
+.log_in p{
+    margin-left: 42px;
+    font-family: system-ui;
+    margin-top: 33px;
+    font-size: 17px;
+    position: relative;
+}
+.log_in p::before{
+    content: "";
+    width: 5px;
+    height: 44px;
+    background-color: black;
+    position: absolute;
+    left: -23px;
+    bottom: 0px;
+}
+.paragraphe1{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.paragraphe1 a{
+    text-decoration: none;
+}
+.paragraphe1 a:hover{
+    text-decoration: underline;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.buttons button{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 50px;
+
+}
+.buttons button:hover{
+    background-color: #eee;
+    transform: scale(1.06);
+
+}
+.lin_or{
+    display: flex;
+    justify-content: center;
+}
+.p2{
+    margin-top : -5px;
+}
+.hr1,.hr2{
+    width: 150px;
+   
+    
+}
+.google, .clever, .office{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .fa-google{
+   background-image: linear-gradient(to right, blue 20%, green 20% 50%, orange 50% 60%, red 60% 100%   );
+    -webkit-background-clip: text;
+ color: transparent;
+
+
+} */
+.icon_google{
+    width: 24px;
+    margin-right: 10px;
+}
+.icon_clever{
+    width: 20px;
+        margin-right: 10px;
+}
+.icon_office{
+    width: 20px;
+    margin-right: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.gmail, .password{
+    width: 300px;
+    border: 2px #80808026 solid;
+    background-color: white;
+   padding:10px;
+    border-radius: 10px;
+    
+}
+
+.password:focus , .gmail:focus {
+    border: blueviolet 1px solid;
+    box-shadow: 0 0 2px 0 blueviolet;
+    outline: none;
+
+}
+.lab1{
+    margin-right: 187px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+    color: blueviolet;
+}
+.lab2{
+    margin-right: 240px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+    color: blueviolet;
+}
+.log_button{
+    width: 324px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #104a4c;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    outline: none;
+    border: none;
+}
+.log_button:hover{
+    background-color: #15b5bb ;
+}
+.p3{
+    margin-right: 130px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.p3 a{
+    text-decoration: none;
+}
+.p3 a:hover{
+    text-decoration: underline;
+}
